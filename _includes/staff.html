@@ -1,0 +1,56 @@
+<h2 class="no-pm">CEOs &amp; Managers</h2>
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'ceo' or person.role == 'manager' %}
+    <div class="col">
+      {% if person.name and person.alias %}
+      <h3 class="no-pm">{{ person.name }}</h3>
+      <h4>{{ person.alias }}</h4>
+      {% else %}
+      <h3>{{ person.alias }}</h3>
+      {% endif %}
+      {% if person.link %}
+      <p class="no-pm"><a href="{{ person.link }}">{{ person.link | remove: "http://" | remove: "https://"  }}</a></p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2 class="no-pm">Admins</h2>
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'admin' %}
+    <div class="col">
+      {% if person.name and person.alias %}
+      <h3 class="no-pm">{{ person.name }}</h3>
+      <h4>{{ person.alias }}</h4>
+      {% else %}
+      <h3>{{ person.alias }}</h3>
+      {% endif %}
+      {% if person.link %}
+      <p class="no-pm"><a href="{{ person.link }}">{{ person.link | remove: "http://" | remove: "https://"  }}</a></p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2 class="no-pm">Mods</h2>
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'mod' %}
+    <div class="col">
+      {% if person.name and person.alias %}
+      <h3 class="no-pm">{{ person.name }}</h3>
+      <h4>{{ person.alias }}</h4>
+      {% else %}
+      <h3>{{ person.alias }}</h3>
+      {% endif %}
+      {% if person.link %}
+      <p class="no-pm"><a href="{{ person.link }}">{{ person.link | remove: "http://" | remove: "https://"  }}</a></p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

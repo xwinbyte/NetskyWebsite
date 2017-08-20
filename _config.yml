@@ -1,0 +1,6 @@
+title: NC Network
+collections:
+- staff
+markdown: kramdown
+sass:
+    sass_dir: css

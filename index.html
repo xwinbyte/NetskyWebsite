@@ -1,90 +1,10 @@
-<!DOCTYPE html>
-<html>
-<!--
-    dnomaid was here
-    https://dnomaid.co.uk
--->
+---
+layout: default
+title: Home
+centered: true
+permalink: /index.html
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NC Network</title>
-  <link href="/favicon.png" rel="shortcut icon" type="image/png">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-  <style media="screen">
-    /*
-        primary accent: B10E4C
-        secondary accent: 7B0D7C
-    */
+<p>Welcome to NC Network, A Discord Community with technology and gaming in mind.</p>
 
-    body {
-      background-color: #dedede;
-      color: #222;
-      max-width: 50em;
-      margin: 0 auto;
-      padding: 0.5em;
-      text-align: center;
-      font-family: 'Roboto', 'Tahoma', sans-serif;
-    }
-
-    main {
-      /*
-          Center all the content
-      */
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      -ms-transform: translateX(-50%) translateY(-40%);
-      -webkit-transform: translate(-50%, -40%);
-      transform: translate(-50%, -40%);
-    }
-
-    h1,
-    h2 {
-      font-family: 'Roboto Slab', 'Trebuchet MS', sans-serif;
-    }
-
-    img {
-      width: 60%;
-      border-radius: 50%;
-    }
-
-    @media screen and (max-width: 750px) {
-      img {
-        width: 95%;
-      }
-    }
-
-    a {
-      color: #B10E4C;
-      text-decoration: none;
-      border-bottom: 1px solid #B10E4C;
-    }
-
-    a:hover {
-      color: #eee;
-      background-color: #B10E4C;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      font-size: 0.7em;
-    }
-  </style>
-</head>
-
-<body>
-  <main>
-    <img src="logo.png" alt="NC" draggable="false">
-    <h1>Actual website coming soon.</h1>
-    <h3>In the meantime, you can <a href="https://discord.io/NCNetwork">join our Discord</a>.</h3>
-  </main>
-  <footer>
-    <p><a href="https://github.com/NCNetwork/NCNetworkSite">This site is on GitHub!</a></p>
-  </footer>
-</body>
-
-</html>
+{% include staff.html %}
