@@ -1,9 +1,11 @@
 ---
 ---
+
 $primary: #B10E4C;
 $secondary: #7B0D7C;
 
-html, body {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -81,28 +83,28 @@ header {
   width: 100%;
   margin-bottom: 1em;
   margin-top: 2em;
-  padding: 1em;
-  padding-top: 2em;
+  padding: 2em 1em 1em;
   background: linear-gradient($secondary, $primary);
   color: #eee;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   text-align: center;
 }
 
 header img {
-  box-shadow: 0px 0px 10px #eee;
+  box-shadow: 0 0 10px #eee;
 }
 
 main {
   max-width: 50em;
   margin: 0 auto;
   padding: 0.5em;
-  background-color: #eee;
+  background-color: #f1f1f1;
+  color: #222;
   border-radius: 2px;
 }
 
-.col, .rule, article {
+.col,
+.rule,
+article {
   padding: 10px;
   border-radius: 5px;
 }
@@ -112,7 +114,8 @@ main {
   padding: 0;
 }
 
-.col a, .col a:hover {
+.col a,
+.col a:hover {
   border-bottom: none;
   background: none;
 }
@@ -161,7 +164,8 @@ main {
   background-color: #296546;
 }
 
-.rule, article {
+.rule,
+article {
   background-color: $primary;
   color: #eee;
   margin: 10px;
@@ -180,12 +184,14 @@ main {
   margin-right: 5px;
 }
 
-.rule a, article a {
+.rule a,
+article a {
   color: #eee;
   border-bottom: 1px solid #eee;
 }
 
-.rule a:hover, article a:hover {
+.rule a:hover,
+article a:hover {
   background-color: #eee;
   color: #222;
 }
@@ -210,7 +216,6 @@ footer {
   text-align: center;
   font-size: 0.7em;
 }
-
 @media screen and (max-width: 500px) {
   nav {
     position: inherit;
@@ -233,7 +238,6 @@ footer {
     margin-top: 0;
   }
 }
-
 @media screen and (min-width: 50em) {
   nav span {
     margin: 5px;
