@@ -9,14 +9,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link href="/favicon.png" rel="shortcut icon" type="image/png">
+  <link href="/img/favicon.png" rel="shortcut icon" type="image/png">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet">
   <link href="/css/wing-col.css" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <span style="float: left;"><img src="/logo.png" alt="NC">NC Network</span>
-    <span style="float: right;"><a href="/">Home</a></span>
+    <span style="float: left;"><a href="/" style="border: none;"><img src="/img/logo.png" alt="NC">NC Network</a></span>
+    <span style="float: right;">
+      <a href="/#about"><i class="fa fa-question fa-fw"></i> About</a>
+      <a href="/#staff"><i class="fa fa-users fa-fw"></i> Staff</a>
+      <a href="/rules"><i class="fa fa-list fa-fw"></i> Rules</a>
+      <a href="https://discord.io/NCNetwork"><i class="fa fa-server fa-fw"></i> Join</a>
+    </span>
   </nav>
+  <header>
+    <img src="/img/logo.png" alt="NC" style="border-radius: 50%; width: 150px;">
+    <h1 style="text-align: center;">{{ page.title }}</h1>
+  </header>
   <main>

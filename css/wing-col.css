@@ -26,7 +26,7 @@
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-    /*margin: 1rem;*/
+    margin: 1rem;
 }
 
 .col-1 {
