@@ -1,4 +1,5 @@
 title: NC Network
+permalink: /news/:title/
 collections:
 - staff
 markdown: kramdown

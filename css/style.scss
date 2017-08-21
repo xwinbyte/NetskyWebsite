@@ -4,7 +4,7 @@ $primary: #B10E4C;
 $secondary: #7B0D7C;
 
 body {
-  background-color: #dedede;
+  background-color: #fefefe;
   color: #222;
   font-family: 'Roboto', 'Tahoma', sans-serif;
   overflow-x: hidden;
@@ -59,7 +59,7 @@ nav a {
   display: inline-block;
   padding: 2px;
   color: #eee;
-  border-bottom: 1px solid #eee;
+  border-bottom: none;
 }
 
 nav a:hover {
@@ -74,6 +74,8 @@ header {
   padding: 1em;
   background: linear-gradient($secondary, $primary);
   color: #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 header img {
@@ -84,9 +86,11 @@ main {
   max-width: 50em;
   margin: 0 auto;
   padding: 0.5em;
+  background-color: #eee;
+  border-radius: 2px;
 }
 
-.col {
+.col, .rule, article {
   padding: 10px;
   border-radius: 5px;
 }
@@ -140,6 +144,49 @@ main {
 
 .mod {
   background-color: #296546;
+}
+
+.rule, article {
+  background-color: $primary;
+  color: #eee;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.rule * {
+  vertical-align: middle;
+}
+
+.rule span {
+  display: inline-block;
+  font-size: 2em;
+  font-family: 'Roboto Slab', sans-serif;
+  margin-right: 5px;
+}
+
+.rule a, article a {
+  color: #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.rule a:hover, article a:hover {
+  background-color: #eee;
+  color: #222;
+}
+
+.rule:hover {
+  transform: scale(0.9);
+}
+
+article h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+article h2 {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 footer {

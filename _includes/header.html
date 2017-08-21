@@ -22,11 +22,18 @@
       <a href="/#about"><i class="fa fa-question fa-fw"></i> About</a>
       <a href="/#staff"><i class="fa fa-users fa-fw"></i> Staff</a>
       <a href="/rules"><i class="fa fa-list fa-fw"></i> Rules</a>
+      <a href="/news"><i class="fa fa-newspaper-o fa-fw"></i> News</a>
       <a href="https://discord.io/NCNetwork"><i class="fa fa-server fa-fw"></i> Join</a>
     </span>
   </nav>
   <header>
     <img src="/img/logo.png" alt="NC" style="border-radius: 50%; width: 150px;">
     <h1 style="text-align: center;">{{ page.title }}</h1>
+    {% if page.layout == 'post' %}
+    <h3>{{ page.date | date: '%B %d, %Y' }}{% if page.author %} by {{ page.author }}{% endif %}</h3>
+    {% endif %}
+    {% if page.layout == 'default' %}
+    <h3>{% if page.description %}{{ page.description }}{% else %}&nbsp;{% endif %}</h3>
+    {% endif %}
   </header>
   <main>
