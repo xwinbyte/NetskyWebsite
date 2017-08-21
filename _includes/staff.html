@@ -4,7 +4,7 @@
 {% for person in site.staff %}
   {% if person.role == 'ceo' or person.role == 'manager' %}
     <div class="col">
-      {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+      {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
       {% if person.name and person.alias %}
       <h3>{{ person.name }}</h3>
       <h4>{{ person.alias }}</h4>
@@ -22,7 +22,7 @@
 {% for person in site.staff %}
   {% if person.role == 'admin' %}
   <div class="col">
-    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
     {% if person.name and person.alias %}
     <h3>{{ person.name }}</h3>
     <h4>{{ person.alias }}</h4>
@@ -39,7 +39,7 @@
 {% for person in site.staff %}
   {% if person.role == 'mod' %}
   <div class="col">
-    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
     {% if person.name and person.alias %}
     <h3>{{ person.name }}</h3>
     <h4>{{ person.alias }}</h4>
