@@ -30,7 +30,7 @@
     <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
     {% endif %}
     {% if person.headadmin == true %}<span class="staff-badge head-admin">Head Administrator</span>{% else %}<span class="staff-badge 
-      ">Administration</span>{% endif %}
+      ">Administrator</span>{% endif %}
   </div>
   {% endif %}
 {% endfor %}
@@ -48,7 +48,7 @@
     <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
     <h4>&nbsp;</h4>
     {% endif %}
-    <span class="staff-badge mod">Moderation</span>
+    <span class="staff-badge mod">Moderator</span>
   </div>
   {% endif %}
 {% endfor %}
