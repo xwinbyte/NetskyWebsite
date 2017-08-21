@@ -8,14 +8,14 @@ body,
 html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
+  width: 100%;
   background-color: $primary;
   color: #222;
   font-family: 'Roboto', 'Tahoma', sans-serif;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 .no-pm {
@@ -91,6 +91,8 @@ header {
 
 header img {
   box-shadow: 0 0 10px #eee;
+  border-radius: 50%;
+  width: 150px;
 }
 
 main {
@@ -197,7 +199,7 @@ article a:hover {
 }
 
 .rule:hover {
-  transform: scale(0.9);
+  transform: scale(0.99);
 }
 
 article h3 {
@@ -216,7 +218,7 @@ footer {
   text-align: center;
   font-size: 0.7em;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 55em) {
   nav {
     position: inherit;
     text-align: center;
@@ -237,8 +239,12 @@ footer {
   header {
     margin-top: 0;
   }
+
+  main {
+    width: 100%;
+  }
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 55em) {
   nav span {
     margin: 5px;
   }
