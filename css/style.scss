@@ -40,10 +40,12 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: calc(100% - 10px);
-  padding: 5px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: $secondary;
   color: #eee;
+  z-index: 100;
 }
 
 nav * {
@@ -69,7 +71,9 @@ nav a:hover {
 }
 
 header {
-  text-align: center;
+  position: relative;
+  right: 1em;
+  width: 100%;
   margin-bottom: 1em;
   margin-top: 2em;
   padding: 1em;
@@ -77,6 +81,7 @@ header {
   color: #eee;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  text-align: center;
 }
 
 header img {
@@ -200,7 +205,7 @@ footer {
   font-size: 0.7em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 50em) {
   nav {
     position: inherit;
     text-align: center;
@@ -220,5 +225,11 @@ footer {
 
   header {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  nav span {
+    margin: 5px;
   }
 }

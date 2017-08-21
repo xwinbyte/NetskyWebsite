@@ -10,6 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.redirect %}<meta http-equiv="refresh" content="0; url={{ page.redirect }}">{% endif %}
 
+  <meta name="theme-color" content="#B10E4C">
+
   {% if page.author %}
   <meta name="author" content="{{ page.author }}">
   {% else %}
@@ -48,7 +50,7 @@
   </nav>
   <header>
     <img src="/img/logo.png" alt="NC" style="border-radius: 50%; width: 150px;">
-    <h1 style="text-align: center;">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
     {% if page.layout == 'post' %}
     <h3>{{ page.date | date: '%B %d, %Y' }}{% if page.author %} by {{ page.author }}{% endif %}</h3>
     {% endif %}
