@@ -8,6 +8,7 @@ body {
   color: #222;
   font-family: 'Roboto', 'Tahoma', sans-serif;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .no-pm {
@@ -17,7 +18,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Roboto Slab', 'Trebuchet MS', sans-serif;
+  font-family: 'Cabin', 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -110,10 +111,13 @@ main {
   transition: all 0.2s;
   width: 78px;
   height: 78px;
+  transform: scale(1.2);
+  margin-bottom: 5px;
 }
 
 .col img:hover {
-  transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.5);
+  opacity: 0.7;
   border-radius: 5px;
 }
 
@@ -161,7 +165,7 @@ main {
 .rule span {
   display: inline-block;
   font-size: 2em;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Cabin', sans-serif;
   margin-right: 5px;
 }
 
