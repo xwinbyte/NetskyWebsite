@@ -39,17 +39,22 @@
 </head>
 <body>
   <nav>
-    <span style="float: left;"><a href="/"><img src="/img/logo.png" alt="NC">NC Network</a></span>
+    <span style="float: left;">
+      <a href="/"><img src="/img/logo.png" alt="NC">NC Network</a>
+    </span>
+    <span>
+    </span>
     <span style="float: right;">
       <a href="/"><i class="fa fa-home fa-fw"></i> Home</a>
       <a href="/#staff"><i class="fa fa-users fa-fw"></i> Staff</a>
       <a href="/rules"><i class="fa fa-list fa-fw"></i> Rules</a>
       <a href="/news"><i class="fa fa-newspaper-o fa-fw"></i> News</a>
       <a href="/join"><i class="fa fa-server fa-fw"></i> Join</a>
+      <a href="https://twitter.com/NCNDiscord"><i class="fa fa-twitter fa-fw"></i></a>
     </span>
   </nav>
   <header>
-    <img src="/img/logo.png" alt="NC" draggable="false"> 
+    <img src="/img/logo.png" alt="NC" draggable="false">
     <h1>{{ page.title }}</h1>
     {% if page.layout == 'post' %}
     <h3>{{ page.date | date: '%B %d, %Y' }}{% if page.author %} by {{ page.author }}{% endif %}</h3>
