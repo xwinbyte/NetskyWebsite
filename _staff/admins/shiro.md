@@ -1,6 +1,6 @@
 ---
 name: Shiro
 alias: shiroyamane
-role: mod
+role: admin
 logo: /img/staff/shiro.png
 ---
