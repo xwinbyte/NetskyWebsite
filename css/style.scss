@@ -2,7 +2,7 @@
 ---
 
 $primary: #2d2f33;
-$secondary: #2d2f33;
+$secondary: #7B0D7C;
 
 body,
 html {
@@ -29,9 +29,9 @@ h2 {
 }
 
 a {
-  color: $primary;
+  color: $secondary;
   text-decoration: none;
-  border-bottom: 1px solid $primary;
+  border-bottom: 1px solid $secondary;
 }
 
 a:hover {
