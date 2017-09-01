@@ -1,21 +1,19 @@
 ---
 ---
-
 $primary: #B10E4C;
 $secondary: #7B0D7C;
 
-body,
-html {
+html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
-  width: 100%;
-  background-color: $primary;
+  background-color: ##171B1F;
   color: #222;
   font-family: 'Roboto', 'Tahoma', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .no-pm {
@@ -83,30 +81,28 @@ header {
   width: 100%;
   margin-bottom: 1em;
   margin-top: 2em;
-  padding: 2em 1em 1em;
+  padding: 1em;
+  padding-top: 2em;
   background: linear-gradient($secondary, $primary);
   color: #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   text-align: center;
 }
 
 header img {
-  box-shadow: 0 0 10px #eee;
-  border-radius: 50%;
-  width: 150px;
+  box-shadow: 0px 0px 10px #eee;
 }
 
 main {
   max-width: 50em;
   margin: 0 auto;
   padding: 0.5em;
-  background-color: #ddd;
-  color: #222;
+  background-color: #eee;
   border-radius: 2px;
 }
 
-.col,
-.rule,
-article {
+.col, .rule, article {
   padding: 10px;
   border-radius: 5px;
 }
@@ -116,8 +112,7 @@ article {
   padding: 0;
 }
 
-.col a,
-.col a:hover {
+.col a, .col a:hover {
   border-bottom: none;
   background: none;
 }
@@ -132,7 +127,7 @@ article {
 }
 
 .col img:hover {
-  transform: rotate(360deg) scale(1.3);
+  transform: rotate(360deg) scale(1.5);
   opacity: 0.7;
   border-radius: 5px;
 }
@@ -166,8 +161,7 @@ article {
   background-color: #296546;
 }
 
-.rule,
-article {
+.rule, article {
   background-color: $primary;
   color: #eee;
   margin: 10px;
@@ -186,20 +180,18 @@ article {
   margin-right: 5px;
 }
 
-.rule a,
-article a {
+.rule a, article a {
   color: #eee;
   border-bottom: 1px solid #eee;
 }
 
-.rule a:hover,
-article a:hover {
+.rule a:hover, article a:hover {
   background-color: #eee;
   color: #222;
 }
 
 .rule:hover {
-  transform: scale(0.99);
+  transform: scale(0.9);
 }
 
 article h3 {
@@ -218,7 +210,8 @@ footer {
   text-align: center;
   font-size: 0.7em;
 }
-@media screen and (max-width: 55em) {
+
+@media screen and (max-width: 500px) {
   nav {
     position: inherit;
     text-align: center;
@@ -239,12 +232,9 @@ footer {
   header {
     margin-top: 0;
   }
-
-  main {
-    width: 100%;
-  }
 }
-@media screen and (min-width: 55em) {
+
+@media screen and (min-width: 50em) {
   nav span {
     margin: 5px;
   }
