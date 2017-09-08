@@ -2,6 +2,6 @@
 name: Neko ♥
 alias: Dylan
 role: mod
-logo: /img/staff/dyran.jpg
+logo: /img/staff/neko.jpg
 link: https://twitter.com/nNekox
 ---
