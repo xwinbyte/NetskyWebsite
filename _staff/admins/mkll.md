@@ -1,7 +1,7 @@
 ---
 name: Makoto
 alias: MKLL
-role: admin
+role: mod
 logo: /img/staff/mkll.png
 link: https://mozilla.jp/
 ---
