@@ -12,7 +12,7 @@
       <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
       {% endif %}
       {% if person.role == 'ceo' %}<span class="staff-badge ceo">[CEO]</span>{% endif %}
-      {% if person.role == 'manager' %}<span class="staff-badge owner">[Owner]</span>{% endif %}
+      {% if person.role == 'owner' %}<span class="staff-badge owner">[Owner]</span>{% endif %}
     </div>
   {% endif %}
 {% endfor %}
