@@ -1,7 +1,7 @@
 ---
 name: George
 alias: Azzeh
-role: manager
+role: owner
 logo: /img/staff/azzeh.png
 link: https://ratelimited.me
 ---
