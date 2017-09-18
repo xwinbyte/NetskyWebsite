@@ -1,7 +1,7 @@
 ---
 name: Bob
 alias: Bob Pony
-role: manager
+role: owner
 logo: /img/staff/bob.png
 link: https://bobpony.org/
 
