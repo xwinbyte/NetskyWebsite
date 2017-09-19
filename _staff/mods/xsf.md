@@ -1,7 +1,7 @@
 ---
 name: David
 alias: xSolidFigure
-role: admin
+role: mod
 logo: /img/staff/xsf.jpg
 link: http://xsolidfigure.ga/
 ---
