@@ -1,7 +1,7 @@
 ---
 name: Andrew
 alias: hiamandrew
-role: mod
+role: admin
 logo: /img/staff/andrew.jpg
 link: https://twitter.com/hiamandrew
 ---
