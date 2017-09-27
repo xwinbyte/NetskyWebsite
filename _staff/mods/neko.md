@@ -1,5 +1,5 @@
 ---
-name: Neko ♥
+name: Neko
 alias: Dylan
 role: mod
 logo: /img/staff/neko.jpg
