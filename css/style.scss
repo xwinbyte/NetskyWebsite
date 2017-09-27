@@ -182,6 +182,9 @@ article {
   margin-right: 5px;
 }
 
+h3, h4 {
+ color: #fff; 
+}
 .rule a,
 article a {
   color: #000;
@@ -198,7 +201,8 @@ article a:hover {
   transform: scale(0.99);
 }
 
-article h3 {
+article 
+{
   margin-bottom: 0;
   padding-bottom: 0;
 }
