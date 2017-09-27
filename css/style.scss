@@ -74,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #eee;
+  background-color: #a3a1a1;
   color: #fff;
 }
 
@@ -141,6 +141,7 @@ article {
 .staff-badge {
   display: inline-block;
   padding: 2px;
+  border-radius: 2px;
   font-size: 0.8em;
   background-color: #A4191C;
   color: #fff;
@@ -165,7 +166,7 @@ article {
 .rule,
 article {
   background-color: $secondary;
-  color: #000;
+  color: #fff;
   margin: 10px;
   text-align: center;
   transition: transform 0.2s;
