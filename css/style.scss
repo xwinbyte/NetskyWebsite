@@ -100,7 +100,7 @@ main {
   max-width: 57em;
   margin: 0 auto;
   padding: 0.5em;
-  background-color: #fff;
+  background-color: #828180;
   color: #222;
   border-radius: 2px;
 }
@@ -165,7 +165,7 @@ article {
 .rule,
 article {
   background-color: $secondary;
-  color: #eee;
+  color: #000;
   margin: 10px;
   text-align: center;
   transition: transform 0.2s;
@@ -184,7 +184,7 @@ article {
 
 .rule a,
 article a {
-  color: #eee;
+  color: #000;
   border-bottom: 1px solid #eee;
 }
 
