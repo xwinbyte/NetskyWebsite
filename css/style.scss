@@ -74,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #a3a1a1;
+  background-color: #c599c6;
   color: #fff;
 }
 
@@ -186,10 +186,11 @@ article {
 h3, h4 {
 color: #fff; 
 }
+
 .rule a,
 article a {
-  color: #000;
-  border-bottom: 1px solid #eee;
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .rule a:hover,
