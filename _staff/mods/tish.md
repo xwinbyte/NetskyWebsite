@@ -1,5 +1,5 @@
 ---
-name: Tokyo
+name: Sarah
 alias: Tish
 role: mod
 logo: /img/staff/tish.png
