@@ -1,7 +1,0 @@
-title: NC Network
-permalink: /news/:title/
-collections:
-- staff
-markdown: kramdown
-sass:
-    sass_dir: css

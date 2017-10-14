@@ -1,0 +1,76 @@
+---
+layout: blank
+---
+<section class="hero is-small" style="background-image: url('/img/header.jpg'); background-size: cover;">
+  <div id="hero-head">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="/"><p>NC Network</p></a>
+      </div>
+
+ 
+
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>	
+      </span>
+
+      <div class="nav-right nav-menu">
+        <a class="nav-item" href="/#about">
+          <i class="fa fa-question-circle fa-fw" style="margin-right: 5px;"></i> About
+        </a>
+        <a class="nav-item" href="/#staff">
+          <i class="fa fa-wrench fa-fw" style="margin-right: 5px;"></i> Staff
+        </a>
+        <a class="nav-item" target="_blank" href="https://twitter.com/NCNDiscord">
+          <i class="fa fa-twitter fa-fw" target="_blank" style="margin-right: 5px;"></i> Twitter
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <img src="/img/logo.png" alt="NCNetworkLogo" style="width: 150px; border-radius: 50%;" id="ncnetwork-hero-logo">
+    <h1 class="title">NC Network</h1>
+    <a class="button is-light" target="_blank" href="/join"> <i class="fa  fa-external-link fa-fw" target="_blank" style="margin-right: 5px;"></i> Join NC Network</a>
+  </div>
+</section>
+
+{{ content }}
+
+<footer class="footer">
+  <div class="container" id="footer-inner">
+    <div class="content has-text-centered">
+      <p><a href="#"><i class="fa fa-angle-up"></i></a></p>
+      <p>
+        Copyright &copy; 2017 NC Network. All rights reserved.
+		<br>
+		Site by <a href="https://aerofusion.net">AeroFusion</a> and <a href="https://dnomaid.co.uk">dnomaid</a>.
+		<br>
+ <script type="text/javascript">
+  var userip;
+</script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+  document.write("Your IP is: ", userip);
+</script>
+
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+  $(".nav-toggle").click(function () {
+    $(".nav-menu").toggleClass('is-active');
+    $(".nav-toggle").toggleClass('is-active');
+  });
+
+  // Prevent embedding
+  if(window.top !== window.self) {
+    window.top.location.replace(window.self.location.href);
+  }
+</script>

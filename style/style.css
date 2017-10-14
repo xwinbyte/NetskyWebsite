@@ -1,0 +1,143 @@
+.button:hover,nav {
+ opacity:.75
+}
+body,html {
+ margin:0;
+ padding:0;
+ height:100%
+}
+body {
+ background-color:#5f5d60;
+ min-height:100%
+}
+#content {
+ background-color:#5f5d60;
+}
+#content-inner {
+ background:#5f5d60;
+ max-width:70em;
+ margin:0 auto;
+ padding:2.5em 0
+}
+a {
+ transition:all .1s linear
+}
+.someone {
+ transition:transform .25s ease;
+ border-radius:50%;
+ background-color:#ddd;
+ border:5px solid #64016b;
+ display:inline-block;
+ max-width:75%
+}
+.someone:hover {
+ transform:scale(1.1) rotate(360deg)
+}
+.columns .column {
+ max-width:50%;
+ margin:auto
+}
+.owner {
+ border:5px solid #00a7a0
+}
+.manager {
+ border:5px solid #e900cd
+}
+#managers {
+ max-width:50em;
+ margin:0 auto
+}
+.admin {
+ border:5px solid #4387ff
+}
+.mod {
+ border:5px solid #2ECC71
+}
+.hero,nav {
+ background-color:rgba(177,102,226,.50)!important
+}
+#ncnetwork-hero-logo {
+ box-shadow:0 0 20px #969CFA;
+ transition:all .5s;
+ margin-bottom:10px
+}
+#ncnetwork-hero-logo:hover {
+ animation:shadow-pulse 1s infinite ease
+}
+@keyframes shadow-pulse {
+ 0%,100% {
+  box-shadow:0 0 20px #b166e2
+ }
+ 50% {
+  box-shadow:0 0 50px #b166e2
+ }
+}
+nav {
+ // position:fixed!important;
+ top:0;
+ left:0;
+ width:100%
+}
+.nav-item,nav a,nav strong {
+ color:#F7FEF7!important
+}
+.nav-item:hover,nav a:hover,nav strong:hover {
+ color:#9856c4!important  
+}
+.nav-toggle:hover {
+ background-color:#8048a5	!important
+}
+.nav-toggle span {
+ background-color:#F7FEF7!important
+}
+.hero-body {
+ text-align:center
+}
+.hero-body h1.title {
+ color:#F7FEF7!important
+}
+.rule {
+ // min-width:10em;
+ width:90%;
+ max-width:50em;
+ margin:2em auto 0;
+ padding:2em;
+ color:#000;
+ background-color:rgba(100,1,107,.1);
+ border-radius:3px;
+ transition:all .25s;
+ text-align:left
+}
+.rule::content {
+ margin:0 auto
+}
+.rule:hover {
+ background-color:rgba(100,1,107,.3);
+ transform:scale(1.05)
+}
+.rule strong {
+ color:#333;
+ // font-size:1.2em
+}
+.rule a {
+ color:#333;
+ text-decoration:underline
+}
+@media screen and (max-width:768px) {
+ .nav-menu.is-active {
+  background-color:#64016b
+ }
+}
+footer {
+ background-color:rgba(177,102,226,1.0)!important;
+ width:100%
+}
+footer * {
+ color:#F7FEF7!important
+}
+footer a {
+ text-decoration:underline!important
+}
+footer a:hover {
+ color:#8048a5!important
+}
