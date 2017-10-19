@@ -5,15 +5,17 @@ layout: blank
   <div id="hero-head">
     <nav class="nav">
       <div class="nav-left">
-        <a class="nav-item" href="/"><p>NC Network</p></a>
+        <a class="nav-item" href="/">
+          <p>NC Network</p>
+        </a>
       </div>
 
- 
+
 
       <span class="nav-toggle">
         <span></span>
-        <span></span>
-        <span></span>	
+      <span></span>
+      <span></span>
       </span>
 
       <div class="nav-right nav-menu">
@@ -45,17 +47,8 @@ layout: blank
       <p><a href="#"><i class="fa fa-angle-up"></i></a></p>
       <p>
         Copyright &copy; 2017 NC Network. All rights reserved.
-		<br>
-		Site by <a href="https://aerofusion.net">AeroFusion</a> and <a href="https://dnomaid.co.uk">dnomaid</a>.
-		<br>
- <script type="text/javascript">
-  var userip;
-</script>
-<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-
-<script type="text/javascript">
-  document.write("Your IP is: ", userip);
-</script>
+        <br> Site by <a href="https://aerofusion.net">AeroFusion</a> and <a href="https://dnomaid.co.uk">dnomaid</a>.
+        <br>
 
       </p>
     </div>
@@ -64,13 +57,13 @@ layout: blank
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
-  $(".nav-toggle").click(function () {
+  $(".nav-toggle").click(function() {
     $(".nav-menu").toggleClass('is-active');
     $(".nav-toggle").toggleClass('is-active');
   });
 
   // Prevent embedding
-  if(window.top !== window.self) {
+  if (window.top !== window.self) {
     window.top.location.replace(window.self.location.href);
   }
 </script>
