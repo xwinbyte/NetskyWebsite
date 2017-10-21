@@ -57,7 +57,7 @@ a {
  background-color:rgba(176, 12, 72, 0.5)!important
 }
 #ncnetwork-hero-logo {
- box-shadow:0 0 20px #B00C48;
+ box-shadow:0 0 20px #fff;
  transition:all .5s;
  margin-bottom:10px
 }
@@ -66,10 +66,10 @@ a {
 }
 @keyframes shadow-pulse {
  0%,100% {
-  box-shadow:0 0 20px #b166e2
+  box-shadow:0 0 20px #fff
  }
  50% {
-  box-shadow:0 0 50px #b166e2
+  box-shadow:0 0 50px #fff
  }
 }
 nav {
@@ -79,13 +79,13 @@ nav {
  width:100%
 }
 .nav-item,nav a,nav strong {
- color:#F7FEF7!important
+ color:#fff!important
 }
 .nav-item:hover,nav a:hover,nav strong:hover {
- color:#9856c4!important  
+ color:#efeaea!important  
 }
 .nav-toggle:hover {
- background-color:#8048a5	!important
+ background-color:#efeaea	!important
 }
 .nav-toggle span {
  background-color:#F7FEF7!important
@@ -94,7 +94,7 @@ nav {
  text-align:center
 }
 .hero-body h1.title {
- color:#F7FEF7!important
+ color:#efeaea!important
 }
 .rule {
  // min-width:10em;
@@ -120,7 +120,7 @@ nav {
  // font-size:1.2em
 }
 .rule a {
- color:#333;
+ color:#efeaea;
  text-decoration:underline
 }
 @media screen and (max-width:768px) {
@@ -133,11 +133,11 @@ footer {
  width:100%
 }
 footer * {
- color:#F7FEF7!important
+ color:#fff!important
 }
 footer a {
  text-decoration:underline!important
 }
 footer a:hover {
- color:#8048a5!important
+ color:#efeaea!important
 }
