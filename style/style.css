@@ -54,10 +54,10 @@ a {
  border:5px solid #2ECC71
 }
 .hero,nav {
- background-color:rgba(177,102,226,.50)!important
+ background-color:rgba(176, 12, 72, 0.5)!important
 }
 #ncnetwork-hero-logo {
- box-shadow:0 0 20px #969CFA;
+ box-shadow:0 0 20px #B00C48;
  transition:all .5s;
  margin-bottom:10px
 }
@@ -103,7 +103,7 @@ nav {
  margin:2em auto 0;
  padding:2em;
  color:#000;
- background-color:rgba(100,1,107,.1);
+ background-color:rgba(176, 12, 72, 1);
  border-radius:3px;
  transition:all .25s;
  text-align:left
@@ -112,7 +112,7 @@ nav {
  margin:0 auto
 }
 .rule:hover {
- background-color:rgba(100,1,107,.3);
+ background-color:rgba(176, 12, 72, .3);
  transform:scale(1.05)
 }
 .rule strong {
@@ -129,7 +129,7 @@ nav {
  }
 }
 footer {
- background-color:rgba(177,102,226,1.0)!important;
+ background-color:rgba(176, 12, 72, 1)!important;
  width:100%
 }
 footer * {
