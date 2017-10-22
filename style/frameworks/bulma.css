@@ -2833,6 +2833,11 @@ a.box:active {
   color: #fff;
 }
 
+.tag.is-headadmin {
+  background-color: #b797ff;
+  color: #fff;
+}
+
 .tag.is-manager {
   background-color: #e900cd;
   color: #fff;
