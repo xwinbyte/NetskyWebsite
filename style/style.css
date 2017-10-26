@@ -1,146 +1,185 @@
-.button:hover,nav {
- opacity:.75
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%
 }
-body,html {
- margin:0;
- padding:0;
- height:100%
-}
+
 body {
- background-color:#5f5d60;
- min-height:100%
+  background-color: #de0e26;
+  min-height: 100%
 }
+
 #content {
- background-color:#5f5d60;
+  background-color: #7b0d7d;
 }
+
+.hero {
+  background: #7b0d7d;
+  background: linear-gradient(to bottom, #de0e26 0%,#a70d55 50%,#7b0d7d 100%);
+}
+
 #content-inner {
- background:#5f5d60;
- max-width:70em;
- margin:0 auto;
- padding:2.5em 0
+  background: #7b0d7d;
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 2.5em 0
 }
+
 a {
- transition:all .1s linear
+  transition: all .1s linear
 }
+
 .someone {
- transition:transform .25s ease;
- border-radius:50%;
- background-color:#ddd;
- border:5px solid #64016b;
- display:inline-block;
- max-width:90%
+  transition: transform .25s ease;
+  border-radius: 50%;
+  background-color: #ddd;
+  border: 5px solid #64016b;
+  display: inline-block;
+  max-width: 90%
 }
+
 .someone:hover {
- transform:scale(1.1) rotate(360deg)
+  transform: scale(1.1) rotate(360deg)
 }
+
 .columns .column {
- max-width:50%;
- margin:auto
+  max-width: 50%;
+  margin: auto
 }
+
 .owner {
- border:5px solid #00a7a0
+  border: 5px solid #00a7a0
 }
+
 .manager {
- border:5px solid #e900cd
+  border: 5px solid #e900cd
 }
+
 #managers {
- max-width:50em;
- margin:0 auto
+  max-width: 50em;
+  margin: 0 auto
 }
+
 .admin {
- border:5px solid #4387ff
+  border: 5px solid #4387ff
 }
+
 .headadmin {
- border:5px solid #b797ff
+  border: 5px solid #b797ff
 }
+
 .mod {
- border:5px solid #2ECC71
+  border: 5px solid #2ECC71
 }
-.hero,nav {
- background-color:rgba(176, 12, 72, 0.5)!important
+
+.hero, nav {
+  background-color: rgba(176, 12, 72, 0.5)!important
 }
+
 #ncnetwork-hero-logo {
- box-shadow:0 0 20px #fff;
- transition:all .5s;
- margin-bottom:10px
+  box-shadow: 0 0 20px #fff;
+  transition: all .5s;
+  margin-bottom: 10px
 }
+
 #ncnetwork-hero-logo:hover {
- animation:shadow-pulse 1s infinite ease
+  animation: shadow-pulse 1s infinite ease
 }
+
 @keyframes shadow-pulse {
- 0%,100% {
-  box-shadow:0 0 20px #fff
- }
- 50% {
-  box-shadow:0 0 50px #fff
- }
+  0%, 100% {
+    box-shadow: 0 0 20px #fff
+  }
+  50% {
+    box-shadow: 0 0 50px #fff
+  }
 }
+
 nav {
- // position:fixed!important;
- top:0;
- left:0;
- width:100%
+  // position:fixed!important;
+  top: 0;
+  left: 0;
+  width: 100%
 }
-.nav-item,nav a,nav strong {
- color:#fff!important
+
+.nav-item, nav a, nav strong {
+  color: #fff!important
 }
-.nav-item:hover,nav a:hover,nav strong:hover {
- color:#efeaea!important  
+
+.nav-item:hover, nav a:hover, nav strong:hover {
+  color: #efeaea!important
 }
+
 .nav-toggle:hover {
- background-color:#efeaea	!important
+  background-color: #efeaea !important
 }
+
 .nav-toggle span {
- background-color:#F7FEF7!important
+  background-color: #F7FEF7!important
 }
+
 .hero-body {
- text-align:center
+  text-align: center
 }
+
 .hero-body h1.title {
- color:#efeaea!important
+  color: #efeaea!important
 }
+
 .rule {
- // min-width:10em;
- width:90%;
- max-width:50em;
- margin:2em auto 0;
- padding:2em;
- color:#000;
- background-color:rgba(176, 12, 72, 1);
- border-radius:3px;
- transition:all .25s;
- text-align:left
+  // min-width:10em;
+  width: 90%;
+  max-width: 50em;
+  margin: 2em auto 0;
+  padding: 2em;
+  color: #000;
+  background-color: rgba(176, 12, 72, 1);
+  border-radius: 3px;
+  transition: all .25s;
+  text-align: left
 }
+
 .rule::content {
- margin:0 auto
+  margin: 0 auto
 }
+
 .rule:hover {
- background-color:rgba(176, 12, 72, .3);
- transform:scale(1.05)
+  background-color: rgba(176, 12, 72, .3);
+  transform: scale(1.05)
 }
+
 .rule strong {
- color:#333;
- // font-size:1.2em
+  color: #333; // font-size:1.2em
 }
+
 .rule a {
- color:#efeaea;
- text-decoration:underline
+  color: #efeaea;
+  text-decoration: underline
 }
+
 @media screen and (max-width:768px) {
- .nav-menu.is-active {
-  background-color:#64016b
- }
+  .nav-menu.is-active {
+    background-color: #64016b
+  }
 }
+
 footer {
- background-color:rgba(176, 12, 72, 1)!important;
- width:100%
+  background-color: rgba(176, 12, 72, 1)!important;
+  width: 100%
 }
+
 footer * {
- color:#fff!important
+  color: #fff!important
 }
+
 footer a {
- text-decoration:underline!important
+  text-decoration: underline!important
 }
+
 footer a:hover {
- color:#efeaea!important
+  color: #efeaea!important
+}
+
+.button:hover, nav {
+  opacity: .75
 }
