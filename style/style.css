@@ -179,7 +179,3 @@ footer a {
 footer a:hover {
   color: #efeaea!important
 }
-
-.button:hover, nav {
-  opacity: .75
-}
