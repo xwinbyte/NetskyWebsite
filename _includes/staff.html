@@ -1,0 +1,53 @@
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'ceo' or person.role == 'manager' %}
+    <div class="col">
+      {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+      {% if person.name and person.alias %}
+      <h3>{{ person.name }}</h3>
+      <h4>{{ person.alias }}</h4>
+      {% else %}
+      <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
+      {% endif %}
+      {% if person.role == 'ceo' %}<span class="staff-badge ceo">Nep Squad</span>{% endif %}
+      {% if person.role == 'manager' %}<span class="staff-badge manager">Manager</span>{% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'admin' %}
+  <div class="col">
+    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+    {% if person.name and person.alias %}
+    <h3>{{ person.name }}</h3>
+    <h4>{{ person.alias }}</h4>
+    {% else %}
+    <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
+    {% endif %}
+        {% if person.headadmin == true %}<span class="staff-badge admin">Administrator+</span>{% else %}<span class="staff-badge admin">Administrator</span>{% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="row">
+{% for person in site.staff %}
+  {% if person.role == 'mod' %}
+  <div class="col">
+    {% if person.logo %}{% if person.link and person.logo %}<a href="{{ person.link }}" title="{{ person.link | remove: 'http://' | remove: 'https://' | remove: 'www.' }}">{% endif %}<img src="{{ person.logo }}" alt="{{ person.alias }}'s logo'" draggable="false">{% if person.link and person.logo %}</a>{% endif %}{% endif %}
+    {% if person.name and person.alias %}
+    <h3>{{ person.name }}</h3>
+    <h4>{{ person.alias }}</h4>
+    {% else %}
+    <h3>{% if person.alias %}{{ person.alias }}{% else %}{{ person.name }}{% endif %}</h3>
+    <h4>&nbsp;</h4>
+    {% endif %}
+    <span class="staff-badge mod">Moderator</span>
+  </div>
+  {% endif %}
+{% endfor %}
+  <br>
+</div>
