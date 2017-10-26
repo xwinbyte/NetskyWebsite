@@ -28,7 +28,7 @@ a {
  background-color:#ddd;
  border:5px solid #64016b;
  display:inline-block;
- max-width:75%
+ max-width:90%
 }
 .someone:hover {
  transform:scale(1.1) rotate(360deg)
