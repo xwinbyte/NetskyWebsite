@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <link href="/img/favicon.png" rel="shortcut icon" />
+
+  <!-- Meta -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta name="keywords" content="nc, aerofusion, discord, website, site, crashie, netsky, jekyll, github, aerofusionyt" />
+  <!-- Open Graph  -->
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta property="og:image" content="/img/logo.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@NCNDiscord" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &mdash; {% endif %}NC Network" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta name="twitter:image" content="/img/logo.png" />
+
+  <link href="style/frameworks/bulma.css" rel="stylesheet" />
+  <link href="style/style.css" rel="stylesheet" />
+
+  <title>{% if page.title %}{{ page.title }} &lsaquo; {% endif %}NC Network</title>
+</head>
+
+<body>
+
+  {{ content }}
+
+  <noscript id="deferred-styles">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  </noscript>
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if(raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
+  </script>
+</body>
+
+</html>
