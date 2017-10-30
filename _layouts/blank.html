@@ -1,63 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Compatability Metadata -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="index, follow" />
 
-        <!-- Site name Metadata -->
-        <title>{% if page.title %}{{ page.title }} &lsaquo; {% endif %}NC Network</title>
-        <meta name="name" content="{% if page.title %}{{ page.title }} &lsaquo; {% endif %}NC Network">
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <link href="/img/favicon.png" rel="shortcut icon" />
 
-        <!-- Ownership  Metadata -->
-        <meta name="author" content="oskikiboy">
-        <meta name="designer" content="oskikiboy">
-        <meta name="owner" content="oskikiboy">
+  <!-- Meta -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta name="keywords" content="nc, aerofusion, discord, website, site, crashie, netsky, jekyll, github, aerofusionyt" />
+  <!-- Open Graph  -->
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta property="og:image" content="/img/logo.png" />
 
-        <!-- Search Engine Optimisation Metadata -->
-        <meta name="keywords" content="Anime, Code, Netowrk, NC, Technology, Aurora, Community, nc, aerofusion, discord, website, site, crashie, netsky, jekyll, github, aerofusionyt">
-        <meta name="Classification" content="Discord Server">
-        <meta name="url" content="https://ncnetwork.me">
-        <meta name="identifier-URL" content="https://ncnetwork.me">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@NCNDiscord" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &mdash; {% endif %}NC Network" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}" />
+  <meta name="twitter:image" content="/img/logo.png" />
 
-        <link rel="alternate" href="?" hreflang="x-default">
-        <link rel="alternate" href="?" hreflang="en">
-        <link rel="alternate" href="?" hreflang="de">
-        <link rel="alternate" href="?" hreflang="it">
-        <link rel="alternate" href="?" hreflang="pt-br">
+  <link href="style/frameworks/bulma.css" rel="stylesheet" />
+  <link href="style/style.css" rel="stylesheet" />
 
-        <!-- Icons Metadata -->
-        <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
-        <link rel="fluid-icon" type="image/png" href="/assets/img/favicon.png">
-        <link rel="logo" type="image/png" href="/assets/img/favicon.png">
-        <link rel="image_src" type="image/png" href="/assets/img/favicon.png">
-        <meta name="image" content="/assets/img/favicon.png">
-        <meta name="twitter:image:src" content="/assets/img/favicon.png">
-        <meta property="og:image" content="/assets/img/favicon.png">
+  <title>{% if page.title %}{{ page.title }} &lsaquo; {% endif %}NC Network</title>
+</head>
 
-        <!-- Twiiter Metadata -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@NCNDiscord">
-        <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &mdash; {% endif %}NC Network">
-        <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}">
+<body>
 
-        <!-- Open Graph Metadata -->
-        <meta property="og:title" content="NC Newtork">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://ncnetwork.me">
-        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}A Discord Server with technology and anime in mind.{% endif %}">
-        <meta property="og:site_name" content="NC Network">
+  {{ content }}
 
-        <!-- Web Resources -->
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" rel="stylesheet">
-        <link href="/assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        {{ content }}
-    </body>
+  <noscript id="deferred-styles">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  </noscript>
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if(raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
+  </script>
+</body>
+
 </html>
