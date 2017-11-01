@@ -23,7 +23,7 @@ window.onload = function() {
     b.onclick = function(e) {
         e.preventDefault();
         if (ab.value.trim() === "") return alert("No token was specified.");
-        if (!ab.value.trim().test(r)) return alert("Invalid token.")
+        if (!ab.value.trim().match(r)) return alert("Invalid token.")
         var a = document.createElement("a");
         document.body.appendChild(a);
         a.style = "display:none";
