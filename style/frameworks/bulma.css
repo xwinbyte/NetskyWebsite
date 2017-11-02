@@ -2829,7 +2829,7 @@ a.box:active {
 }
 
 .tag.is-owner {
-  background-color: #00a7a0;
+  background-color: #c905ff;
   color: #fff;
 }
 
@@ -2839,7 +2839,7 @@ a.box:active {
 }
 
 .tag.is-manager {
-  background-color: #e900cd;
+  background-color: #c905ff;
   color: #fff;
 }
 
