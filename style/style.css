@@ -48,11 +48,11 @@ a {
 }
 
 .owner {
-  border: 5px solid #00a7a0
+  border: 5px solid #c905ff
 }
 
 .manager {
-  border: 5px solid #e900cd
+  border: 5px solid #c905ff
 }
 
 #managers {
