@@ -5,21 +5,18 @@ body, html {
 }
 
 body {
-  background-color: #BE3486;
+  background-color: #7b0d7d;
   min-height: 100%
 }
 
 #content {
-  background-color: #BE3486;
+  background-color: #7b0d7d;
 }
 
 .hero {
-  background: #7b0d7d;
-	background: url("/img/background.png") no-repeat center center fixed;
-	 -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+  background: #BE3486;
+	background: url("/img/background.png") no-repeat;
+	background-size: 100%;
 }
 
 #content-inner {
@@ -168,7 +165,7 @@ nav {
 }
 
 footer {
-  background-color: rgba(190, 52, 134, 1.0)!important;
+  background-color: #BE3486!important;
   width: 100%
 }
 
