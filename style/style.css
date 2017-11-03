@@ -14,7 +14,7 @@ body {
 }
 
 .hero {
-      background: url("img/background.png") no-repeat center center fixed;
+      background-image: "/img/background.png" no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -23,7 +23,7 @@ body {
 
 #content-inner {
   background: #7b0d7d;
-  max-width: 80em;
+  max-width: 90em;
   margin: 0 auto;
   padding: 2.5em 0
 }
