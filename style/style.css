@@ -14,13 +14,11 @@ body {
 }
 
 .hero {
-        overflow-y: hidden ! important;
-        overflow-x: hidden ! important;
-        background-image: url('/img/bakcground.png');
-        /*background-size: cover;*/
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: right;
+      background: url(img/background.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 #content-inner {
@@ -48,7 +46,7 @@ a {
 }
 
 .columns .column {
-  max-width: 50%;
+  max-width: 75%;
   margin: auto
 }
 
