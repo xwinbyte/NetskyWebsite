@@ -14,13 +14,13 @@ body {
 }
 
 .hero {
-  background: #BE3486;
+  background: #7b0d7d;
 	background: url("/img/background.png") no-repeat;
 	background-size: 100%;
 }
 
 #content-inner {
-  background: #BE3486;
+  background: #7b0d7d;
   max-width: 70em;
   margin: 0 auto;
   padding: 2.5em 0
