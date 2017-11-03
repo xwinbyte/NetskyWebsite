@@ -5,21 +5,25 @@ body, html {
 }
 
 body {
-  background-color: #de0e26;
+  background-color: #BE3486;
   min-height: 100%
 }
 
 #content {
-  background-color: #7b0d7d;
+  background-color: #BE3486;
 }
 
 .hero {
   background: #7b0d7d;
 	background: url("/img/background.png") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 #content-inner {
-  background: #7b0d7d;
+  background: #BE3486;
   max-width: 70em;
   margin: 0 auto;
   padding: 2.5em 0
@@ -73,7 +77,7 @@ a {
 }
 
 .hero, nav {
-  background-color: rgba(176, 12, 72, 0.5)!important
+  background-color: rgba(190, 52, 134, 0.5)!important
 }
 
 #ncnetwork-hero-logo {
@@ -133,7 +137,7 @@ nav {
   margin: 2em auto 0;
   padding: 2em;
   color: #000;
-  background-color: rgba(176, 12, 72, 1);
+  background-color: rgba(190, 52, 134, 1.0);
   border-radius: 3px;
   transition: all .25s;
   text-align: left
@@ -164,7 +168,7 @@ nav {
 }
 
 footer {
-  background-color: rgba(176, 12, 72, 1)!important;
+  background-color: rgba(190, 52, 134, 1.0)!important;
   width: 100%
 }
 
