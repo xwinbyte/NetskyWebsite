@@ -46,8 +46,8 @@ a {
 }
 
 .columns .column {
-  max-width: 75%;
-  margin: auto
+  max-width: 100%;
+  
 }
 
 .owner {
