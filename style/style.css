@@ -16,6 +16,7 @@ body {
 .hero {
   background: #7b0d7d;
 	background: url("/img/background.png") no-repeat center center fixed;
+}
 
 #content-inner {
   background: #7b0d7d;
