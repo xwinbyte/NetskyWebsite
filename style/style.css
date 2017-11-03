@@ -15,7 +15,7 @@ body {
 
 .hero {
   background: #7b0d7d;
-  background: linear-gradient(to bottom, #de0e26 0%,#a70d55 50%,#7b0d7d 100%);
+  background-image: "/img/background.png";
 }
 
 #content-inner {
@@ -48,11 +48,11 @@ a {
 }
 
 .owner {
-  border: 5px solid #c905ff
+  border: 5px solid #df1b5b
 }
 
 .manager {
-  border: 5px solid #c905ff
+  border: 5px solid #d955ff
 }
 
 #managers {
