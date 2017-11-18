@@ -7,7 +7,7 @@ window.onload = function() {
     var k = "{{KEY}}";
     var f = "{{FILE_LENGTH}}";
     var t = "{\r\n\
-      \"Name\": \"NC Network ShareX uploader\",\r\n\
+      \"Name\": \"Netsky Community ShareX uploader\",\r\n\
       \"DestinationType\": \"ImageUploader, TextUploader, FileUploader\",\r\n\
       \"RequestType\": \"POST\",\r\n\
       \"RequestURL\": \"https://upload.ncnetwork.me\",\r\n\

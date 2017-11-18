@@ -52,11 +52,11 @@ a {
 }
 
 .owner {
-  border: 5px solid #df1b5b
+  border: 5px solid #e41e4a
 }
 
 .manager {
-  border: 5px solid #d955ff
+  border: 5px solid #7556bd
 }
 
 #managers {
@@ -65,15 +65,15 @@ a {
 }
 
 .admin {
-  border: 5px solid #4387ff
+  border: 5px solid #225b7e
 }
 
 .headadmin {
-  border: 5px solid #b797ff
+  border: 5px solid #3490bf
 }
 
 .mod {
-  border: 5px solid #2ECC71
+  border: 5px solid #32bc53
 }
 
 .hero, nav {

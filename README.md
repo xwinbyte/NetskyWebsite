@@ -1,4 +1,4 @@
-# NC Network's Official Website
+# Netsky Community's Official Website
 
 **A Discord Community with technology and anime in mind.**
 
