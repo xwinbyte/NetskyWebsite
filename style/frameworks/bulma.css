@@ -2819,7 +2819,7 @@ a.box:active {
 }
 
 .tag.is-mod {
-  background-color: #2ECC71;
+  background-color: #32bc53;
   color: #fff;
 }
 
@@ -2829,17 +2829,17 @@ a.box:active {
 }
 
 .tag.is-owner {
-  background-color: #df1b5b;
+  background-color: #e41e4a;
   color: #fff;
 }
 
 .tag.is-headadmin {
-  background-color: #b797ff;
+  background-color: #3490bf;
   color: #fff;
 }
 
 .tag.is-manager {
-  background-color: #d955ff;
+  background-color: #7556bd;
   color: #fff;
 }
 
@@ -3565,7 +3565,7 @@ a.box:active {
 }
 
 .message.is-info {
-  background-color: #f6f9fe;
+  background-color: #225b7e;
 }
 
 .message.is-info .message-header {
