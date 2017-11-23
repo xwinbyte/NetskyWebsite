@@ -34,11 +34,11 @@ a {
 
 .someone {
   transition: transform .25s ease;
-  border-radius: 50%;
+  border-radius: 100%;
   background-color: #ddd;
   border: 5px solid #64016b;
   display: inline-block;
-  max-width: 90%
+  max-width: 100%
 }
 
 .someone:hover {
@@ -48,7 +48,7 @@ a {
 .columns .column {
   max-width: 100%;
   margin: auto;
-  
+  font-size: 13px;
 }
 
 .ceo {
