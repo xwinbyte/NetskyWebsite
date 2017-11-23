@@ -51,7 +51,7 @@ a {
   
 }
 
-.owner {
+.ceo {
   border: 5px solid #e41e4a
 }
 
@@ -68,7 +68,7 @@ a {
   border: 5px solid #225b7e
 }
 
-.headadmin {
+.adminplus {
   border: 5px solid #3490bf
 }
 
@@ -76,6 +76,13 @@ a {
   border: 5px solid #32bc53
 }
 
+.modplus {
+	border: 5px solid #41ee6d
+}
+
+.partner {
+	border: 5px solid #E67E22
+}
 .hero, nav {
   background-color: #BE3486!important
 }
