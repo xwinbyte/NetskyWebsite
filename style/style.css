@@ -5,12 +5,12 @@ body, html {
 }
 
 body {
-  background-color: #7630A0;
+  background-color: #A91B70;
   min-height: 100%
 }
 
 #content {
-  background-color: #7630A0;
+  background-color: #A91B70;
 }
 
 .hero {
@@ -22,8 +22,8 @@ body {
 }
 
 #content-inner {
-  background: #7630A0;
-  max-width: 90em;
+  background: #A91B70;
+  max-width: 85em;
   margin: 0 auto;
   padding: 2.5em 0
 }
@@ -84,7 +84,7 @@ a {
 	border: 5px solid #E67E22
 }
 .hero, nav {
-  background-color: #6B21B7!important
+  background-color: #C23486!important
 }
 
 #ncnetwork-hero-logo {
@@ -137,45 +137,14 @@ nav {
   color: #efeaea!important
 }
 
-.rule {
-  // min-width:10em;
-  width: 90%;
-  max-width: 50em;
-  margin: 2em auto 0;
-  padding: 2em;
-  color: #000;
-  background-color: rgba(190, 52, 134, 1.0);
-  border-radius: 3px;
-  transition: all .25s;
-  text-align: left
-}
-
-.rule::content {
-  margin: 0 auto
-}
-
-.rule:hover {
-  background-color: rgba(176, 12, 72, .3);
-  transform: scale(1.05)
-}
-
-.rule strong {
-  color: #333; // font-size:1.2em
-}
-
-.rule a {
-  color: #efeaea;
-  text-decoration: underline
-}
-
 @media screen and (max-width:768px) {
   .nav-menu.is-active {
-    background-color: #7630A0
+    background-color: #C23486
   }
 }
 
 footer {
-  background-color: #6B21B7!important;
+  background-color: #C23486!important;
   width: 100%
 }
 
@@ -188,5 +157,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #efeaea!important
+  color: #	!important
 }
