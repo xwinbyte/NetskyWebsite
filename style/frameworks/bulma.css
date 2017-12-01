@@ -2809,7 +2809,7 @@ a.box:active {
 }
 
 .tag.is-admin {
-  background-color: #225b7e;
+  background-color: #23587c;
   color: #000;
 }
 
@@ -2819,7 +2819,7 @@ a.box:active {
 }
 
 .tag.is-mod {
-  background-color: #32bc53;
+  background-color: #2ECC71;
   color: #000;
 }
 
@@ -2834,7 +2834,7 @@ a.box:active {
 }
 
 .tag.is-manager {
-  background-color: #9959B5;
+  background-color: #7f4e95;
   color: #000;
 }
 .tag.is-modplus {
