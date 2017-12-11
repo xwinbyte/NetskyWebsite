@@ -1,157 +1,133 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%
 }
-
 body {
-  background-color: #A91B70;
-  min-height: 100%
+    background-color: #A91B70;
+    min-height: 100%
 }
-
 #content {
-  background-color: #A91B70;
+    background-color: #A91B70;
 }
-
 .hero {
-      background-image: url(https://raw.githubusercontent.com/NCNetwork/NCWebsite/master/img/background.png);
-			background-position: center center;
-			background-repeat:  no-repeat;
-			background-attachment: stretch;
-			background-size:  cover;
+    background-image: url(https://raw.githubusercontent.com/NetskyCommunity/NetskyWebsite/master/img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
 }
-
 #content-inner {
-  background: #A91B70;
-  max-width: 85em;
-  margin: 0 auto;
-  padding: 2.5em 0
+    background: #A91B70;
+    max-width: 85em;
+    margin: 0 auto;
+    padding: 2.5em 0
 }
-
 a {
-  transition: all .1s linear
+    transition: all .1s linear
 }
-
 .someone {
-  transition: transform .25s ease;
-  border-radius: 100%;
-  background-color: #ddd;
-  border: 5px solid #7630A0;
-  display: inline-block;
-  max-width: 100%
+    transition: transform .25s ease;
+    border-radius: 100%;
+    background-color: #ddd;
+    border: 5px solid #7630A0;
+    display: inline-block;
+    max-width: 100%
 }
-
 .someone:hover {
-  transform: scale(1.1) rotate(360deg)
+    transform: scale(1.1) rotate(360deg)
 }
-
 .columns .column {
-  max-width: 100%;
-  margin: auto;
-  font-size: 13px;
+    max-width: 100%;
+    margin: auto;
+    font-size: 13px;
 }
-
 .ceo {
-  border: 5px solid #e41e4a
+    border: 5px solid #e41e4a
 }
-
 .manager {
-  border: 5px solid #7f4e95
+    border: 5px solid #7f4e95
 }
-
 #managers {
-  max-width: 50em;
-  margin: 0 auto
+    max-width: 50em;
+    margin: 0 auto
 }
-
 .admin {
-  border: 5px solid #23587c
+    border: 5px solid #23587c
 }
-
 .adminplus {
-  border: 5px solid #3490bf
+    border: 5px solid #3490bf
 }
-
 .mod {
-  border: 5px solid #2ECC71
+    border: 5px solid #2ECC71
 }
-
 .partner {
-	border: 5px solid #E67E22
+    border: 5px solid #E67E22
 }
-.hero, nav {
-  background-color: #C23486!important
-}
-
-#ncnetwork-hero-logo {
-  box-shadow: 0 0 20px #fff;
-  transition: all .5s;
-  margin-bottom: 10px
-}
-
-#ncnetwork-hero-logo:hover {
-  animation: shadow-pulse 1s infinite ease
-}
-
-@keyframes shadow-pulse {
-  0%, 100% {
-    box-shadow: 0 0 20px #fff
-  }
-  50% {
-    box-shadow: 0 0 50px #fff
-  }
-}
-
+.hero,
 nav {
-  // position:fixed!important;
-  top: 0;
-  left: 0;
-  width: 100%
+    background-color: #C23486!important
 }
-
-.nav-item, nav a, nav strong {
-  color: #fff!important
+#netsky-hero-logo {
+    box-shadow: 0 0 20px #fff;
+    transition: all .5s;
+    margin-bottom: 10px
 }
-
-.nav-item:hover, nav a:hover, nav strong:hover {
-  color: #efeaea!important
+#netsky-hero-logo:hover {
+    animation: shadow-pulse 1s infinite ease
 }
-
+@keyframes shadow-pulse {
+    0%, 100% {
+        box-shadow: 0 0 20px #fff
+    }
+    50% {
+        box-shadow: 0 0 50px #fff
+    }
+}
+nav {
+    // position:fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.nav-item,
+nav a,
+nav strong {
+    color: #fff!important
+}
+.nav-item:hover,
+nav a:hover,
+nav strong:hover {
+    color: #efeaea!important
+}
 .nav-toggle:hover {
-  background-color: #efeaea !important
+    background-color: #efeaea !important
 }
-
 .nav-toggle span {
-  background-color: #F7FEF7!important
+    background-color: #F7FEF7!important
 }
-
 .hero-body {
-  text-align: center
+    text-align: center
 }
-
 .hero-body h1.title {
-  color: #efeaea!important
+    color: #efeaea!important
 }
-
-@media screen and (max-width:768px) {
-  .nav-menu.is-active {
-    background-color: #C23486
-  }
+@media screen and (max-width: 768px) {
+    .nav-menu.is-active {
+        background-color: #C23486
+    }
 }
-
 footer {
-  background-color: #C23486!important;
-  width: 100%
+    background-color: #C23486!important;
+    width: 100%
 }
-
 footer * {
-  color: #fff!important
+    color: #fff!important
 }
-
 footer a {
-  text-decoration: underline!important
+    text-decoration: underline!important
 }
-
 footer a:hover {
-  color: #	!important
+    color: # !important
 }
