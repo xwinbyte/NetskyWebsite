@@ -69,6 +69,38 @@ a {
 nav {
     background-color: #C23486!important
 }
+
+.rule {
+  width: 90%;
+  max-width: 50em;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 2em;
+  color: #000;
+  background-color: rgba(169, 27, 112, 0.1);
+  border-radius: 3px;
+  transition: all 0.25s;
+  text-align: left;
+}
+
+.rule::content {
+  margin: 0 auto;
+}
+
+.rule:hover {
+  background-color: rgba(169, 27, 112, 0.1);
+  transform: scale(1.05);
+}
+
+.rule strong {
+  color: #333;
+}
+
+.rule a {
+  color: #333;
+  text-decoration: underline;
+}
+
 #netsky-hero-logo {
     box-shadow: 0 0 20px #fff;
     transition: all .5s;
@@ -76,16 +108,7 @@ nav {
 }
 #netsky-hero-logo:hover {
     animation: shadow-pulse 1s infinite ease
-}
-@keyframes shadow-pulse {
-    0%, 100% {
-        box-shadow: 0 0 20px #fff
-    }
-    50% {
-        box-shadow: 0 0 50px #fff
-    }
-}
-nav {
+
     // position:fixed!important;
     top: 0;
     left: 0;
