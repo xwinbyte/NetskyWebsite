@@ -102,18 +102,10 @@ nav {
 }
 
 #netsky-hero-logo {
-    box-shadow: 0 0 20px #fff;
     transition: all .5s;
     margin-bottom: 10px
 }
-#netsky-hero-logo:hover {
-    animation: shadow-pulse 1s infinite ease;
 
-    // position:fixed!important;
-    top: 0;
-    left: 0;
-    width: 100%
-}
 .nav-item,
 nav a,
 nav strong {
