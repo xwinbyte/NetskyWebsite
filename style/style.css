@@ -107,7 +107,7 @@ nav {
     margin-bottom: 10px
 }
 #netsky-hero-logo:hover {
-    animation: shadow-pulse 1s infinite ease
+    animation: shadow-pulse 1s infinite ease;
 
     // position:fixed!important;
     top: 0;
