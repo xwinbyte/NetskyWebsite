@@ -130,11 +130,11 @@ nav strong:hover {
 }
 @media screen and (max-width: 768px) {
     .nav-menu.is-active {
-        background-color: #C23486
+        background-color: #752385
     }
 }
 footer {
-    background-color: #752385!important;
+    background-color: #842a96!important;
     width: 100%
 }
 footer * {
