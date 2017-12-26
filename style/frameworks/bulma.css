@@ -1117,13 +1117,13 @@ a.box:active {
     color: #ffdd57;
 }
 .button.is-danger {
-    background-color: #c12282;
+    background-color: #752385;
     border-color: transparent;
     color: #fff;
 }
 .button.is-danger:hover,
 .button.is-danger.is-hovered {
-    background-color: #A91B70;
+    background-color: #842a96;
     border-color: transparent;
     color: #fff;
 }
