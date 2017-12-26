@@ -5,11 +5,11 @@ html {
     height: 100%
 }
 body {
-    background-color: #A91B70;
+    background-color: #752385;
     min-height: 100%
 }
 #content {
-    background-color: #A91B70;
+    background-color: #752385;
 }
 .hero {
     background-image: url(https://raw.githubusercontent.com/NetskyCommunity/NetskyWebsite/master/img/header-blur.png);
@@ -19,7 +19,7 @@ body {
     background-size: cover;
 }
 #content-inner {
-    background: #A91B70;
+    background: #752385;
     max-width: 85em;
     margin: 0 auto;
     padding: 2.5em 0
@@ -134,7 +134,7 @@ nav strong:hover {
     }
 }
 footer {
-    background-color: #C23486!important;
+    background-color: #752385!important;
     width: 100%
 }
 footer * {
