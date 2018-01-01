@@ -2430,7 +2430,7 @@ a.box:active {
     color: #000;
 }
 .tag.is-admin {
-    background-color: #23587c;
+    background-color: #195080;
     color: #000;
 }
 .tag.is-success {
@@ -2438,19 +2438,19 @@ a.box:active {
     color: #000;
 }
 .tag.is-mod {
-    background-color: #2ECC71;
+    background-color: #25C059;
     color: #000;
 }
 .tag.is-ceo {
-    background-color: #e41e4a;
+    background-color: #E91E63;
     color: #000;
 }
 .tag.is-headadmin {
-    background-color: #3490bf;
+    background-color: #277ECD;
     color: #000;
 }
 .tag.is-manager {
-    background-color: #7f4e95;
+    background-color: #843DA4;
     color: #000;
 }
 .tag.is-medium {
