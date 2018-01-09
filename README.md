@@ -1,6 +1,6 @@
 # Netsky Community's Official Website
 
-**Netsky Community is a Discord Community focused around technology.**
+**This is Netsky Community's official Website. Uses Jekyll & Bulma. **
 
-**Be sure to to read the [LICENSE](https://github.com/NCNetwork/NCNetworkSite/blob/master/LICENSE.md)**
+**Be sure to to read the [LICENSE](https://github.com/NetskyCommunity/NetskyWebsite/blob/master/LICENSE.md)**
 
